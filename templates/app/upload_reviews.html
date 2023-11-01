@@ -1,0 +1,9 @@
+{% extends "app/base.html" %}
+{% block content %}
+<h1>Upload Reviews</h1>
+
+{% for review in reviews %}
+<p>{{review.book.title}}</p>
+{% endfor %}
+
+{% endblock %}

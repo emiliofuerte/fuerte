@@ -1,0 +1,17 @@
+{% extends "app/base.html" %}
+{% block content %}
+<div class="container">
+<br>
+
+<h2 class="text-center" style="margin-bottom: 0;">emilio fuerte</h2>
+<p class="text-center" style="margin-top: 0;">pseudonymous law student</p>
+
+  <div  class="d-flex justify-content-center">
+    <table border="0">
+      <tr><td><a href="{% url 'three' %}">book reviews</a></td></tr>
+      <tr><td><a href="{% url 'essays' %}">essays</a></td></tr>
+    </table>
+  </div>
+
+</div>
+{% endblock content %}

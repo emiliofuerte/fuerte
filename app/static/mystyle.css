@@ -1,0 +1,19 @@
+/* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+a { color: rgb(60,110,113) !important;}
+a.black { color: black !important;}
+a.ochre { color: rgb(213,119,11) !important;}
+
+/* subhead on essays page*/
+p.subhead {
+  font-size: 13px;
+  padding-bottom: 1px;
+  color: rgb(213,119,11) !important;
+}
+
+a {
+  text-decoration: none !important;  /* Remove underline */
+}
+
+a:hover {
+  text-decoration: underline !important;  /* Add underline on hover */
+}
